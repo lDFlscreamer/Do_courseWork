@@ -79,6 +79,46 @@ public class ClusterWork {
         return currentIteration;
     }
 
+    /**
+     * combine some cluster ,rebuild matrix and combine cluster in Array
+     *
+     * @param previous result of previous itaration
+     * @return Result of this itaration
+     * @see Result
+     */
+    public Result clusterItarationSecondAlgorithm(Result previous) {
+        //gets previous data
+        int[][][] previousMatrix = previous.getMatrix();
+        if (previousMatrix.length == 1) {//one cluster already
+            return previous;
+        }
+        ArrayList<Integer> important = previous.getImportant();
+        //calculatin centers
+        if (previousMatrix[0].length == 2) {
+            Result current = rebuildResult(previous, 0, 1);
+            return current;
+        }
+        int[][] calculateCenter = counter.calculateCenter(previousMatrix);
+        int[] rating = counter.choseCenter(calculateCenter); //only for important criterion
+
+        ArrayList<Integer> centers = analyser.getMaxvalueIndex(rating);
+
+        int[][] pointToPoint = counter.calculatePointForCenter(previousMatrix);
+        int[] pair = new int[0];
+        try {
+            pair = getPair(previousMatrix, pointToPoint, centers);
+        } catch (Exception e) {
+            logger.error("pair not found");
+            pair = getPair(0, centers.get(0));
+        }
+        int firstCluster = pair[0];
+        int secondCluster = pair[1];
+
+
+        //rebuild matrix and clusterName
+        Result currentIteration = rebuildResult(previous, firstCluster, secondCluster);
+        return currentIteration;
+    }
 
     /**
      * rebuild a array of cluster Names

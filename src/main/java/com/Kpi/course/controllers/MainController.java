@@ -26,29 +26,51 @@ public class MainController {
     private ClusterWork clusterWork;
 
     /**
+     * do a first algorithm with a important criterion
      * @param arg inputed state of clustering graph
      * @return result of current iteration
      */
-    @PostMapping(value = "/Clustering",
+    @PostMapping(value = "/ClusteringByFirstAlgorithm",
             consumes = MediaType.APPLICATION_JSON_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE
     )
     @ResponseStatus(value = HttpStatus.ACCEPTED)
     public @ResponseBody
-    Result doAglom(@RequestBody Result arg) {
+    Result doFirstAlgorithm(@RequestBody Result arg) {
         long startTime = System.nanoTime();
         Result result = clusterWork.clusterItarationFirstAlgorithm(arg);
         long endTime   = System.nanoTime();
 
         long totalTime = endTime - startTime;
-        logger.info("wasted time: "+totalTime);
+        logger.warn("wasted time on first algorithm iteration: "+totalTime);
         return result;
     }
 
-
     /**
+     * do a second algorithm without important criterion
      * @param arg inputed state of clustering graph
      * @return result of current iteration
+     */
+    @PostMapping(value = "/ClusteringBySecondAlgorithm",
+            consumes = MediaType.APPLICATION_JSON_VALUE,
+            produces = MediaType.APPLICATION_JSON_VALUE
+    )
+    @ResponseStatus(value = HttpStatus.ACCEPTED)
+    public @ResponseBody
+    Result doSecondAlgorithm(@RequestBody Result arg) {
+        long startTime = System.nanoTime();
+        Result result = clusterWork.clusterItarationSecondAlgorithm(arg);
+        long endTime   = System.nanoTime();
+
+        long totalTime = endTime - startTime;
+        logger.warn("wasted time on second algorithm: "+totalTime);
+        return result;
+    }
+
+    /**
+     * get a Default task body
+     * @param arg not required and dont use
+     * @return Default task body
      */
     @PostMapping(value = "/DefaultClustering",
             consumes = MediaType.APPLICATION_JSON_VALUE,
@@ -56,8 +78,7 @@ public class MainController {
     )
     @ResponseStatus(value = HttpStatus.ACCEPTED)
     public @ResponseBody
-    Result doAglomeration(@RequestBody Result arg) {
-//        Result result = clusterWork.clusterItarationFirstAlgorithm(arg);
+    Result getDefault(@RequestBody(required = false) Result arg) {
         ArrayList<ArrayList<String>> first = new ArrayList<ArrayList<String>>() {{
             add(new ArrayList<String>() {{
                 add("A");
@@ -129,8 +150,7 @@ public class MainController {
         result.setImportant(important);
         result.setMatrix(matrix);
         result.setClusters(first);
-        Result result1 = clusterWork.clusterItarationFirstAlgorithm(result);
-        return result1;
+        return result;
     }
 
 }
