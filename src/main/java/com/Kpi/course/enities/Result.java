@@ -1,0 +1,37 @@
+package com.Kpi.course.enities;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.Data;
+
+import java.util.ArrayList;
+
+@Data
+@JsonInclude(JsonInclude.Include.NON_NULL)
+public class Result {
+    /**
+     * arrays of cluster names
+     */
+    private ArrayList<ArrayList<String>> clusters;
+    /**
+     * matrix that explain a graph structure
+     */
+    private int[][][] matrix;
+    /**
+     * the result of function
+     */
+    private long resultOfClustering;
+    /**
+     * array  coefficients of  important
+     */
+    private int[] coefficient;
+    /**
+     * array of important criterion
+     */
+    private ArrayList<Integer> important;
+    /**
+     * best result of clustering
+     */
+    private Result best;
+
+
+}

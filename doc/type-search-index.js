@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.Kpi.course.services","l":"Analyser"},{"p":"com.Kpi.course.services","l":"ClusterWork"},{"p":"com.Kpi.course.services","l":"Counter"},{"p":"com.Kpi.course","l":"CourseWork"},{"p":"com.Kpi.course.controllers","l":"MainController"},{"p":"com.Kpi.course.enities","l":"Result"}]

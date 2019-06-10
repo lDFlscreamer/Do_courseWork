@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="758352b0-06a2-4a3a-830f-62d7b56af228" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClusterWork.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courseWork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/allclasses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/CourseWork.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/constant/GeneralConstants.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/constant/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/constant/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/controllers/MainController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/controllers/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/controllers/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/enities/Result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/enities/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/enities/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/services/Analyser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/services/ClusterWork.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/services/Counter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/services/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/services/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-migrate-3.0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/jszip-utils/dist/jszip-utils-ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/jszip-utils/dist/jszip-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/jszip-utils/dist/jszip-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/jszip/dist/jszip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jquery/jszip/dist/jszip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/member-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/package-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/type-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/courseWork.kotlin_module" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#choseCenter#0;class#Counter#0" />
+                <element signature="method#choseCenter#1;class#Counter#0" />
+                <element signature="method#choseCenter#2;class#Counter#0" />
+                <element signature="method#calculatePointForCenter#0;class#Counter#0" />
+                <element signature="method#calculatePointForCenter#1;class#Counter#0" />
+                <element signature="method#calculateFunction#0;class#Counter#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#isCluster#0;class#Analyser#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#rebuildClusterName#0;class#ClusterWork#0" />
+                <element signature="method#rebuildAllMatrix#0;class#ClusterWork#0" />
+                <element signature="method#rebuildPartOfMatrix#0;class#ClusterWork#0" />
+                <element signature="method#getPair#0;class#ClusterWork#0" />
+                <element signature="method#getPair#1;class#ClusterWork#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Counter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DistanceCounter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Point.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ClusterWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enities/Counter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/ClusterWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/enities/Point.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CourseWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/enities/Counter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/enities/Point.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/services/DistanceCounter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/ConnectionNotFindException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/Exception/ConnectionNotFindException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/services/ClusterWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/services/Analyser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/enities/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/services/Counter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/CourseWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="course" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="222" />
+    <option name="y" value="72" />
+    <option name="width" value="1401" />
+    <option name="height" value="1002" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courseWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courseWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courseWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courseWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courseWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="LombokPluginEnabledInProject" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowInspection Results.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="D:/Games/java/android" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="spring" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CourseWork ">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Delta.course.Main" />
+      <module name="courseWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Delta.course.Exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseWork " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="courseWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Kpi.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Kpi.course.CourseWork" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Spring Boot.CourseWork " />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CourseWork " />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+    <option name="showProfilesPanel" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="758352b0-06a2-4a3a-830f-62d7b56af228" name="Default Changelist" comment="" />
+      <created>1557083629098</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557083629098</updated>
+      <workItem from="1557083636327" duration="974000" />
+      <workItem from="1557157626403" duration="5774000" />
+      <workItem from="1557406651643" duration="52000" />
+      <workItem from="1558640621410" duration="1957000" />
+      <workItem from="1559987690229" duration="273000" />
+      <workItem from="1559994308145" duration="2216000" />
+      <workItem from="1560076220665" duration="40659000" />
+      <workItem from="1560165658581" duration="13618000" />
+      <workItem from="1560179540504" duration="2073000" />
+      <workItem from="1560182061312" duration="2693000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="70289000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+      <is-preview-enabled value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1231" height="735" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.2855925" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" sideWeight="0.50165564" side_tool="true" weight="0.2753623" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49957374" weight="0.6589404" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5794702" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" x="22" y="261" width="1173" height="199" id="TODO" order="6" weight="0.3294702" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3294702" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50042623" side_tool="true" weight="0.56125826" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3294702" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.3294702" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="16" weight="0.3294702" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32992327" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32992327" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32992327" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java</url>
+          <line>180</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>coefficient[j]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matrixDistances[i][j]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matrixDistances.length</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matrixDistances[0].length</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result.get(first).addAll()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result.get(first)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matrix[2]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matrix[1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>matrix[3]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/Games/java/jdk/lib/src.zip!/java.base/java/lang/Float.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1513">
+          <caret line="466" column="23" selection-start-line="466" selection-start-column="23" selection-end-line="466" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Games/java/jdk/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="5703" column="31" selection-start-line="5703" selection-start-column="31" selection-end-line="5703" selection-end-column="31" />
+          <folding>
+            <element signature="e#249870#249871#0" expanded="true" />
+            <element signature="e#249923#249924#0" expanded="true" />
+            <element signature="e#253556#253557#0" expanded="true" />
+            <element signature="e#253609#253610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Delta/course/enities/Counter.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/stereotype/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Delta/course/Exception/ConnectionNotFindException.java" />
+    <entry file="jar://D:/Games/java/jdk/lib/src.zip!/java.base/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="634" column="16" selection-start-line="634" selection-start-column="16" selection-end-line="634" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Games/java/jdk/lib/src.zip!/java.base/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="4781" column="8" selection-start-line="4781" selection-start-column="8" selection-end-line="4781" selection-end-column="8" />
+          <folding>
+            <element signature="e#184256#184257#0" expanded="true" />
+            <element signature="e#184300#184301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Games/java/jdk/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Delta/course/enities/Point.java" />
+    <entry file="uml://SPRING/mappedClass=com.Delta.course.services.ClusterWork">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SPRING</ID>
+          <OriginalElement>mappedClass=com.Delta.course.services.ClusterWork</OriginalElement>
+          <nodes>
+            <node x="" y="">module=courseWork;bean_class=com.Delta.course.CourseWork;bean_name=courseWork</node>
+            <node x="" y="">module=courseWork;bean_class=com.Delta.course.controllers.MainController;bean_name=mainController</node>
+            <node x="" y="">module=courseWork;bean_class=com.Delta.course.services.ClusterWork;bean_name=clusterWork</node>
+            <node x="" y="">module=courseWork;bean_class=com.Delta.course.services.Analyser;bean_name=analyser</node>
+            <node x="" y="">module=courseWork;bean_class=com.Delta.course.services.Counter;bean_name=counter</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration;bean_name=cacheAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheConfigurationImportSelector;bean_name=cacheConfigurationImportSelector</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers;bean_name=cacheManagerCustomizers</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheManagerValidator;bean_name=cacheAutoConfigurationValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.context.properties.EnableConfigurationPropertiesImportSelector;bean_name=enableConfigurationPropertiesImportSelector</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration;bean_name=simpleCacheConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.cache.concurrent.ConcurrentMapCacheManager;bean_name=cacheManager</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.cache.CacheProperties;bean_name=spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration;bean_name=codecsAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration.JacksonCodecConfiguration;bean_name=jacksonCodecConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.web.codec.CodecCustomizer;bean_name=jacksonCodecCustomizer</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration.LoggingCodecConfiguration;bean_name=loggingCodecConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.web.codec.CodecCustomizer;bean_name=loggingCodecCustomizer</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.http.HttpProperties;bean_name=spring.http-org.springframework.boot.autoconfigure.http.HttpProperties</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration;bean_name=restTemplateAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.web.client.RestTemplateBuilder;bean_name=restTemplateBuilder</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration;bean_name=jacksonObjectMapperBuilderConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;bean_name=jacksonObjectMapperBuilder</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration;bean_name=projectInfoAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.info.GitProperties;bean_name=gitProperties</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.info.BuildProperties;bean_name=buildProperties</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.info.ProjectInfoProperties;bean_name=spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration;bean_name=errorMvcAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.web.servlet.error.DefaultErrorAttributes;bean_name=errorAttributes</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController;bean_name=basicErrorController</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.ErrorPageCustomizer;bean_name=errorPageCustomizer</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.PreserveErrorControllerTargetClassPostProcessor;bean_name=preserveErrorControllerTargetClassPostProcessor</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration;bean_name=whitelabelErrorViewConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.View;bean_name=error</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.view.BeanNameViewResolver;bean_name=beanNameViewResolver</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration;bean_name=defaultErrorViewResolverConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.DefaultErrorViewResolver;bean_name=conventionErrorViewResolver</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.ServerProperties;bean_name=server-org.springframework.boot.autoconfigure.web.ServerProperties</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.ResourceProperties;bean_name=spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties;bean_name=spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration;bean_name=messageSourceAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.context.MessageSourceProperties;bean_name=messageSourceProperties</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.context.MessageSource;bean_name=messageSource</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.JacksonObjectMapperConfiguration;bean_name=jacksonObjectMapperConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=com.fasterxml.jackson.databind.ObjectMapper;bean_name=jacksonObjectMapper</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration;bean_name=taskSchedulingAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;bean_name=taskScheduler</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.task.TaskSchedulerBuilder;bean_name=taskSchedulerBuilder</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.task.TaskSchedulingProperties;bean_name=spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration;bean_name=validationAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.validation.PrimaryDefaultValidatorPostProcessor;bean_name=primaryDefaultValidatorPostProcessor</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;bean_name=defaultValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.validation.beanvalidation.MethodValidationPostProcessor;bean_name=methodValidationPostProcessor</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForInteger;bean_name=positiveOrZeroValidatorForInteger</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForLong;bean_name=positiveOrZeroValidatorForLong</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForDouble;bean_name=negativeValidatorForDouble</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForDouble;bean_name=negativeOrZeroValidatorForDouble</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForBigInteger;bean_name=negativeOrZeroValidatorForBigInteger</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForDouble;bean_name=positiveValidatorForDouble</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForBigDecimal;bean_name=negativeOrZeroValidatorForBigDecimal</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForInteger;bean_name=negativeValidatorForInteger</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForFloat;bean_name=negativeValidatorForFloat</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForBigDecimal;bean_name=positiveOrZeroValidatorForBigDecimal</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForByte;bean_name=negativeValidatorForByte</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForByte;bean_name=positiveOrZeroValidatorForByte</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForLong;bean_name=positiveValidatorForLong</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForNumber;bean_name=positiveValidatorForNumber</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForDouble;bean_name=positiveOrZeroValidatorForDouble</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForLong;bean_name=negativeOrZeroValidatorForLong</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForFloat;bean_name=positiveOrZeroValidatorForFloat</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForShort;bean_name=positiveValidatorForShort</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForInteger;bean_name=negativeOrZeroValidatorForInteger</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForLong;bean_name=negativeValidatorForLong</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForBigInteger;bean_name=positiveOrZeroValidatorForBigInteger</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForByte;bean_name=negativeOrZeroValidatorForByte</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForNumber;bean_name=negativeValidatorForNumber</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForBigDecimal;bean_name=positiveValidatorForBigDecimal</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForBigInteger;bean_name=negativeValidatorForBigInteger</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForFloat;bean_name=positiveValidatorForFloat</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForInteger;bean_name=positiveValidatorForInteger</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForFloat;bean_name=negativeOrZeroValidatorForFloat</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForNumber;bean_name=positiveOrZeroValidatorForNumber</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForBigDecimal;bean_name=negativeValidatorForBigDecimal</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForByte;bean_name=positiveValidatorForByte</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForBigInteger;bean_name=positiveValidatorForBigInteger</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForShort;bean_name=positiveOrZeroValidatorForShort</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForNumber;bean_name=minValidatorForNumber</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForBigDecimal;bean_name=maxValidatorForBigDecimal</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForLong;bean_name=maxValidatorForLong</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForDouble;bean_name=minValidatorForDouble</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForBigInteger;bean_name=minValidatorForBigInteger</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForNumber;bean_name=maxValidatorForNumber</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForBigDecimal;bean_name=minValidatorForBigDecimal</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForDouble;bean_name=maxValidatorForDouble</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForFloat;bean_name=maxValidatorForFloat</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForBigInteger;bean_name=maxValidatorForBigInteger</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForFloat;bean_name=minValidatorForFloat</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForLong;bean_name=minValidatorForLong</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForBigInteger;bean_name=decimalMinValidatorForBigInteger</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForNumber;bean_name=decimalMinValidatorForNumber</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForBigDecimal;bean_name=decimalMinValidatorForBigDecimal</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForDouble;bean_name=decimalMinValidatorForDouble</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForBigInteger;bean_name=decimalMaxValidatorForBigInteger</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForDouble;bean_name=decimalMaxValidatorForDouble</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForFloat;bean_name=decimalMinValidatorForFloat</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForLong;bean_name=decimalMinValidatorForLong</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForFloat;bean_name=decimalMaxValidatorForFloat</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForBigDecimal;bean_name=decimalMaxValidatorForBigDecimal</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForNumber;bean_name=decimalMaxValidatorForNumber</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForLong;bean_name=decimalMaxValidatorForLong</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfChar;bean_name=notEmptyValidatorForArraysOfChar</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfFloat;bean_name=notEmptyValidatorForArraysOfFloat</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCharSequence;bean_name=notEmptyValidatorForCharSequence</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfLong;bean_name=notEmptyValidatorForArraysOfLong</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCollection;bean_name=notEmptyValidatorForCollection</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfShort;bean_name=notEmptyValidatorForArraysOfShort</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfInt;bean_name=notEmptyValidatorForArraysOfInt</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfBoolean;bean_name=notEmptyValidatorForArraysOfBoolean</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArray;bean_name=notEmptyValidatorForArray</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfDouble;bean_name=notEmptyValidatorForArraysOfDouble</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForMap;bean_name=notEmptyValidatorForMap</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfByte;bean_name=notEmptyValidatorForArraysOfByte</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.EmailValidator;bean_name=emailValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.EANValidator;bean_name=EANValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.ScriptAssertValidator;bean_name=scriptAssertValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.SafeHtmlValidator;bean_name=safeHtmlValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.URLValidator;bean_name=URLValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.Mod11CheckValidator;bean_name=mod11CheckValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.Mod10CheckValidator;bean_name=mod10CheckValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.LuhnCheckValidator;bean_name=luhnCheckValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.NotBlankValidator;bean_name=notBlankValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.ParameterScriptAssertValidator;bean_name=parameterScriptAssertValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.CodePointLengthValidator;bean_name=codePointLengthValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.LengthValidator;bean_name=lengthValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.UniqueElementsValidator;bean_name=uniqueElementsValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.ModCheckValidator;bean_name=modCheckValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.ISBNValidator;bean_name=ISBNValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.br.CPFValidator;bean_name=CPFValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.br.CNPJValidator;bean_name=CNPJValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.pl.NIPValidator;bean_name=NIPValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.pl.REGONValidator;bean_name=REGONValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.pl.PESELValidator;bean_name=PESELValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.time.DurationMaxValidator;bean_name=durationMaxValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.time.DurationMinValidator;bean_name=durationMinValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.engine.constraintvalidation.LambdaBasedValidatorDescriptor.LambdaExecutor;bean_name=lambdaExecutor</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.constraintvalidators.RegexpURLValidator;bean_name=regexpURLValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.AbstractEmailValidator;bean_name=abstractEmailValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.NotBlankValidator;bean_name=notBlankValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.EmailValidator;bean_name=emailValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.DecimalMinValidatorForCharSequence;bean_name=decimalMinValidatorForCharSequence</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator;bean_name=notNullValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.PatternValidator;bean_name=patternValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.MaxValidatorForCharSequence;bean_name=maxValidatorForCharSequence</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.AssertFalseValidator;bean_name=assertFalseValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.MinValidatorForCharSequence;bean_name=minValidatorForCharSequence</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.DecimalMaxValidatorForCharSequence;bean_name=decimalMaxValidatorForCharSequence</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.DigitsValidatorForCharSequence;bean_name=digitsValidatorForCharSequence</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.DigitsValidatorForNumber;bean_name=digitsValidatorForNumber</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.NullValidator;bean_name=nullValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.AssertTrueValidator;bean_name=assertTrueValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfByte;bean_name=sizeValidatorForArraysOfByte</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForMap;bean_name=sizeValidatorForMap</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArray;bean_name=sizeValidatorForArray</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCharSequence;bean_name=sizeValidatorForCharSequence</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfBoolean;bean_name=sizeValidatorForArraysOfBoolean</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfShort;bean_name=sizeValidatorForArraysOfShort</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCollection;bean_name=sizeValidatorForCollection</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfChar;bean_name=sizeValidatorForArraysOfChar</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfDouble;bean_name=sizeValidatorForArraysOfDouble</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfFloat;bean_name=sizeValidatorForArraysOfFloat</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfLong;bean_name=sizeValidatorForArraysOfLong</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfInt;bean_name=sizeValidatorForArraysOfInt</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForLocalDate;bean_name=pastValidatorForLocalDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForJapaneseDate;bean_name=pastValidatorForJapaneseDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForLocalDateTime;bean_name=pastValidatorForLocalDateTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForReadableInstant;bean_name=pastValidatorForReadableInstant</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForCalendar;bean_name=pastValidatorForCalendar</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForThaiBuddhistDate;bean_name=pastValidatorForThaiBuddhistDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForYearMonth;bean_name=pastValidatorForYearMonth</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForHijrahDate;bean_name=pastValidatorForHijrahDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForDate;bean_name=pastValidatorForDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForYear;bean_name=pastValidatorForYear</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForReadablePartial;bean_name=pastValidatorForReadablePartial</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForOffsetTime;bean_name=pastValidatorForOffsetTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForMonthDay;bean_name=pastValidatorForMonthDay</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForLocalTime;bean_name=pastValidatorForLocalTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForMinguoDate;bean_name=pastValidatorForMinguoDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForInstant;bean_name=pastValidatorForInstant</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForOffsetDateTime;bean_name=pastValidatorForOffsetDateTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForZonedDateTime;bean_name=pastValidatorForZonedDateTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForThaiBuddhistDate;bean_name=futureValidatorForThaiBuddhistDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForLocalDateTime;bean_name=futureValidatorForLocalDateTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForZonedDateTime;bean_name=futureValidatorForZonedDateTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForCalendar;bean_name=futureValidatorForCalendar</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForMonthDay;bean_name=futureValidatorForMonthDay</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForOffsetTime;bean_name=futureValidatorForOffsetTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForOffsetDateTime;bean_name=futureValidatorForOffsetDateTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForJapaneseDate;bean_name=futureValidatorForJapaneseDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForLocalTime;bean_name=futureValidatorForLocalTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForReadableInstant;bean_name=futureValidatorForReadableInstant</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForMinguoDate;bean_name=futureValidatorForMinguoDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForYearMonth;bean_name=futureValidatorForYearMonth</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForLocalDate;bean_name=futureValidatorForLocalDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForInstant;bean_name=futureValidatorForInstant</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForReadablePartial;bean_name=futureValidatorForReadablePartial</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForHijrahDate;bean_name=futureValidatorForHijrahDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForDate;bean_name=futureValidatorForDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForYear;bean_name=futureValidatorForYear</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForCalendar;bean_name=pastOrPresentValidatorForCalendar</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForYearMonth;bean_name=pastOrPresentValidatorForYearMonth</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForLocalDate;bean_name=pastOrPresentValidatorForLocalDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForReadableInstant;bean_name=pastOrPresentValidatorForReadableInstant</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForMonthDay;bean_name=pastOrPresentValidatorForMonthDay</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForHijrahDate;bean_name=pastOrPresentValidatorForHijrahDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForOffsetDateTime;bean_name=pastOrPresentValidatorForOffsetDateTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForLocalTime;bean_name=pastOrPresentValidatorForLocalTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForOffsetTime;bean_name=pastOrPresentValidatorForOffsetTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForZonedDateTime;bean_name=pastOrPresentValidatorForZonedDateTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForThaiBuddhistDate;bean_name=pastOrPresentValidatorForThaiBuddhistDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForReadablePartial;bean_name=pastOrPresentValidatorForReadablePartial</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForInstant;bean_name=pastOrPresentValidatorForInstant</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForJapaneseDate;bean_name=pastOrPresentValidatorForJapaneseDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForDate;bean_name=pastOrPresentValidatorForDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForLocalDateTime;bean_name=pastOrPresentValidatorForLocalDateTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForMinguoDate;bean_name=pastOrPresentValidatorForMinguoDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForYear;bean_name=pastOrPresentValidatorForYear</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForReadableInstant;bean_name=futureOrPresentValidatorForReadableInstant</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForLocalTime;bean_name=futureOrPresentValidatorForLocalTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForInstant;bean_name=futureOrPresentValidatorForInstant</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForJapaneseDate;bean_name=futureOrPresentValidatorForJapaneseDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForHijrahDate;bean_name=futureOrPresentValidatorForHijrahDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForZonedDateTime;bean_name=futureOrPresentValidatorForZonedDateTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForLocalDateTime;bean_name=futureOrPresentValidatorForLocalDateTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForCalendar;bean_name=futureOrPresentValidatorForCalendar</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForOffsetTime;bean_name=futureOrPresentValidatorForOffsetTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForMonthDay;bean_name=futureOrPresentValidatorForMonthDay</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForThaiBuddhistDate;bean_name=futureOrPresentValidatorForThaiBuddhistDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForOffsetDateTime;bean_name=futureOrPresentValidatorForOffsetDateTime</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForLocalDate;bean_name=futureOrPresentValidatorForLocalDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForReadablePartial;bean_name=futureOrPresentValidatorForReadablePartial</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForMinguoDate;bean_name=futureOrPresentValidatorForMinguoDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForYearMonth;bean_name=futureOrPresentValidatorForYearMonth</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForDate;bean_name=futureOrPresentValidatorForDate</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForYear;bean_name=futureOrPresentValidatorForYear</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.MinValidatorForMonetaryAmount;bean_name=minValidatorForMonetaryAmount</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.PositiveOrZeroValidatorForMonetaryAmount;bean_name=positiveOrZeroValidatorForMonetaryAmount</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.DecimalMinValidatorForMonetaryAmount;bean_name=decimalMinValidatorForMonetaryAmount</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.NegativeValidatorForMonetaryAmount;bean_name=negativeValidatorForMonetaryAmount</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.NegativeOrZeroValidatorForMonetaryAmount;bean_name=negativeOrZeroValidatorForMonetaryAmount</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.DecimalMaxValidatorForMonetaryAmount;bean_name=decimalMaxValidatorForMonetaryAmount</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.CurrencyValidatorForMonetaryAmount;bean_name=currencyValidatorForMonetaryAmount</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.PositiveValidatorForMonetaryAmount;bean_name=positiveValidatorForMonetaryAmount</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.MaxValidatorForMonetaryAmount;bean_name=maxValidatorForMonetaryAmount</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForShort;bean_name=negativeValidatorForShort</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForNumber;bean_name=negativeOrZeroValidatorForNumber</node>
+            <node x="" y="">module=courseWork;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForShort;bean_name=negativeOrZeroValidatorForShort</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration;bean_name=jackson2ObjectMapperBuilderCustomizerConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration.StandardJackson2ObjectMapperBuilderCustomizer;bean_name=standardJacksonObjectMapperBuilderCustomizer</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonProperties;bean_name=spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration;bean_name=webMvcAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.web.servlet.filter.OrderedHiddenHttpMethodFilter;bean_name=hiddenHttpMethodFilter</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.web.servlet.filter.OrderedFormContentFilter;bean_name=formContentFilter</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter;bean_name=webMvcAutoConfigurationAdapter</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;bean_name=requestMappingHandlerAdapter</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;bean_name=requestMappingHandlerMapping</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.format.support.FormattingConversionService;bean_name=mvcConversionService</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.validation.Validator;bean_name=mvcValidator</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.accept.ContentNegotiationManager;bean_name=mvcContentNegotiationManager</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.util.PathMatcher;bean_name=mvcPathMatcher</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.util.UrlPathHelper;bean_name=mvcUrlPathHelper</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=viewControllerHandlerMapping</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping;bean_name=beanNameHandlerMapping</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=resourceHandlerMapping</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.resource.ResourceUrlProvider;bean_name=mvcResourceUrlProvider</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=defaultServletHandlerMapping</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.method.support.CompositeUriComponentsContributor;bean_name=mvcUriComponentsContributor</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter;bean_name=httpRequestHandlerAdapter</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter;bean_name=simpleControllerHandlerAdapter</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.HandlerExceptionResolver;bean_name=handlerExceptionResolver</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.ViewResolver;bean_name=mvcViewResolver</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.handler.HandlerMappingIntrospector;bean_name=mvcHandlerMappingIntrospector</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.view.InternalResourceViewResolver;bean_name=defaultViewResolver</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.view.ContentNegotiatingViewResolver;bean_name=viewResolver</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.LocaleResolver;bean_name=localeResolver</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping;bean_name=welcomePageHandlerMapping</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.filter.RequestContextFilter;bean_name=requestContextFilter</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter.FaviconConfiguration;bean_name=faviconConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.handler.SimpleUrlHandlerMapping;bean_name=faviconHandlerMapping</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.resource.ResourceHttpRequestHandler;bean_name=faviconRequestHandler</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration;bean_name=httpEncodingAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.filter.CharacterEncodingFilter;bean_name=characterEncodingFilter</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration.LocaleCharsetMappingsCustomizer;bean_name=localeCharsetMappingsCustomizer</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration.DispatcherServletConfiguration;bean_name=dispatcherServletConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.servlet.DispatcherServlet;bean_name=dispatcherServlet</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.multipart.MultipartResolver;bean_name=multipartResolver</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration;bean_name=httpMessageConvertersAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration;bean_name=jacksonHttpMessageConvertersConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.http.HttpMessageConverters;bean_name=messageConverters</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration;bean_name=mappingJackson2HttpMessageConverterConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;bean_name=mappingJackson2HttpMessageConverter</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration;bean_name=stringHttpMessageConverterConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.http.converter.StringHttpMessageConverter;bean_name=stringHttpMessageConverter</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration;bean_name=servletWebServerFactoryAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration.BeanPostProcessorsRegistrar;bean_name=beanPostProcessorsRegistrar</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration.EmbeddedTomcat;bean_name=embeddedTomcat</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;bean_name=tomcatServletWebServerFactory</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer;bean_name=servletWebServerFactoryCustomizer</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.TomcatServletWebServerFactoryCustomizer;bean_name=tomcatServletWebServerFactoryCustomizer</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration;bean_name=jmxAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.jmx.export.annotation.AnnotationMBeanExporter;bean_name=mbeanExporter</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.jmx.ParentAwareNamingStrategy;bean_name=objectNamingStrategy</node>
+            <node x="" y="">module=courseWork;bean_class=javax.management.MBeanServer;bean_name=mbeanServer</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration;bean_name=taskExecutionAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.task.TaskExecutorBuilder;bean_name=taskExecutorBuilder</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;bean_name=applicationTaskExecutor</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.task.TaskExecutionProperties;bean_name=spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration;bean_name=dispatcherServletRegistrationConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.DispatcherServletRegistrationBean;bean_name=dispatcherServletRegistration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration;bean_name=multipartAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=javax.servlet.MultipartConfigElement;bean_name=multipartConfigElement</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.multipart.support.StandardServletMultipartResolver;bean_name=multipartResolver</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.MultipartProperties;bean_name=spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration;bean_name=propertyPlaceholderAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.context.support.PropertySourcesPlaceholderConfigurer;bean_name=propertySourcesPlaceholderConfigurer</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration;bean_name=webSocketServletAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration.TomcatWebSocketConfiguration;bean_name=tomcatWebSocketConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.websocket.servlet.TomcatWebSocketServletWebServerCustomizer;bean_name=websocketServletWebServerCustomizer</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.ParameterNamesModuleConfiguration;bean_name=parameterNamesModuleConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=com.fasterxml.jackson.module.paramnames.ParameterNamesModule;bean_name=parameterNamesModule</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration;bean_name=embeddedWebServerFactoryCustomizerAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration.TomcatWebServerFactoryCustomizerConfiguration;bean_name=tomcatWebServerFactoryCustomizerConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.embedded.TomcatWebServerFactoryCustomizer;bean_name=tomcatWebServerFactoryCustomizer</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration;bean_name=jacksonAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.jackson.JsonComponentModule;bean_name=jsonComponentModule</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration;bean_name=dispatcherServletAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration;bean_name=configurationPropertiesAutoConfiguration</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.core.env.Environment;bean_name=environment</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.core.env.PropertyResolver;bean_name=propertyResolver</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.core.convert.ConversionService;bean_name=conversionService</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.web.context.WebApplicationContext;bean_name=webApplicationContext</node>
+            <node x="" y="">module=courseWork;bean_class=javax.servlet.ServletConfig;bean_name=servletConfig</node>
+            <node x="" y="">module=courseWork;bean_class=javax.servlet.http.HttpServletRequest;bean_name=httpServletRequest</node>
+            <node x="" y="">module=courseWork;bean_class=javax.servlet.ServletContext;bean_name=servletContext</node>
+            <node x="" y="">module=courseWork;bean_class=javax.servlet.http.HttpSession;bean_name=httpSession</node>
+            <node x="" y="">module=courseWork;bean_class=org.springframework.boot.ApplicationArguments;bean_name=springApplicationArguments</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.175" x="1507.0" y="1570.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Local context</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClusterWork.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="uml://JAVA/com.Delta.course.controllers.MainController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.Delta.course.controllers.MainController</OriginalElement>
+          <nodes>
+            <node x="" y="">com.Delta.course.controllers.MainController</node>
+            <node x="" y="">org.springframework.web.bind.annotation.RestController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="74.0" y="52.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.Delta.course.services.ClusterWork">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.Delta.course.services.ClusterWork</OriginalElement>
+          <nodes>
+            <node x="729.6645833333333" y="99.0">com.Delta.course.enities.Result</node>
+            <node x="0.0" y="144.0">com.Delta.course.services.Counter</node>
+            <node x="668.55" y="674.0">com.Delta.course.controllers.MainController</node>
+            <node x="363.0" y="188.0">com.Delta.course.services.Analyser</node>
+            <node x="484.84375" y="0.0">org.springframework.stereotype.Service</node>
+            <node x="350.8104166666667" y="420.0">com.Delta.course.services.ClusterWork</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.Delta.course.services.Counter" target="org.springframework.stereotype.Service">
+              <point x="0.0" y="-90.5" />
+              <point x="171.5" y="74.0" />
+              <point x="504.01041666666663" y="74.0" />
+              <point x="-38.333333333333314" y="24.5" />
+            </edge>
+            <edge source="com.Delta.course.services.ClusterWork" target="com.Delta.course.services.Analyser">
+              <point x="-101.19999999999993" y="-102.0" />
+              <point x="502.61041666666677" y="395.0" />
+              <point x="516.5" y="395.0" />
+              <point x="0.0" y="46.5" />
+            </edge>
+            <edge source="com.Delta.course.services.ClusterWork" target="org.springframework.stereotype.Service">
+              <point x="0.0" y="-102.0" />
+              <point x="603.8104166666667" y="395.0" />
+              <point x="680.5" y="395.0" />
+              <point x="680.5" y="74.0" />
+              <point x="580.6770833333334" y="74.0" />
+              <point x="38.33333333333337" y="24.5" />
+            </edge>
+            <edge source="com.Delta.course.services.ClusterWork" target="com.Delta.course.services.Counter">
+              <point x="-202.39999999999992" y="-102.0" />
+              <point x="401.4104166666668" y="395.0" />
+              <point x="171.5" y="395.0" />
+              <point x="0.0" y="90.5" />
+            </edge>
+            <edge source="com.Delta.course.controllers.MainController" target="com.Delta.course.enities.Result">
+              <point x="52.0" y="-36.0" />
+              <point x="824.55" y="649.0" />
+              <point x="867.3104166666667" y="649.0" />
+              <point x="867.3104166666667" y="395.0" />
+              <point x="917.1645833333333" y="395.0" />
+              <point x="74.99999999999997" y="135.5" />
+            </edge>
+            <edge source="com.Delta.course.services.ClusterWork" target="com.Delta.course.enities.Result">
+              <point x="202.39999999999998" y="-102.0" />
+              <point x="806.2104166666667" y="395.0" />
+              <point x="842.1645833333333" y="395.0" />
+              <point x="0.0" y="135.5" />
+            </edge>
+            <edge source="com.Delta.course.services.Analyser" target="org.springframework.stereotype.Service">
+              <point x="0.0" y="-46.5" />
+              <point x="516.5" y="74.0" />
+              <point x="542.34375" y="74.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="com.Delta.course.controllers.MainController" target="com.Delta.course.services.ClusterWork">
+              <point x="-52.0" y="-36.0" />
+              <point x="720.55" y="649.0" />
+              <point x="603.8104166666667" y="649.0" />
+              <point x="0.0" y="102.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7219321148825065" x="325.0" y="373.0" />
+          <SelectedNodes>
+            <node>com.Delta.course.controllers.MainController</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#isCluster#0;class#Analyser#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#rebuildClusterName#0;class#ClusterWork#0" />
+            <element signature="method#rebuildAllMatrix#0;class#ClusterWork#0" />
+            <element signature="method#rebuildPartOfMatrix#0;class#ClusterWork#0" />
+            <element signature="method#getPair#0;class#ClusterWork#0" />
+            <element signature="method#getPair#1;class#ClusterWork#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Delta/course/constant/GeneralConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Delta/course/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkmatrix#0;class#Main#0" />
+            <element signature="method#doWork1#0;class#Main#0" />
+            <element signature="method#checkName#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#choseCenter#0;class#Counter#0" />
+            <element signature="method#choseCenter#1;class#Counter#0" />
+            <element signature="method#choseCenter#2;class#Counter#0" />
+            <element signature="method#calculatePointForCenter#0;class#Counter#0" />
+            <element signature="method#calculatePointForCenter#1;class#Counter#0" />
+            <element signature="method#calculateFunction#0;class#Counter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/jquery/jszip/dist/jszip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1057" column="3" selection-start-line="1057" selection-start-column="3" selection-end-line="1057" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>courseWork</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

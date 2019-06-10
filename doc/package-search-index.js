@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.Kpi.course"},{"l":"com.Kpi.course.controllers"},{"l":"com.Kpi.course.enities"},{"l":"com.Kpi.course.services"}]
