@@ -2,6 +2,8 @@ package com.Kpi.course.services;
 
 import com.Kpi.course.enities.Best;
 import com.Kpi.course.enities.Result;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,7 +22,7 @@ import java.util.ArrayList;
 @Service
 public class ClusterWork {
 
-
+    private static final Logger logger = LoggerFactory.getLogger(ClusterWork.class);
     @Autowired
     private Counter counter;
 
@@ -36,45 +38,47 @@ public class ClusterWork {
      */
     public Result clusterItarationFirstAlgorithm(Result previous) {
         //gets previous data
-        ArrayList<ArrayList<String>> previousClusters = previous.getClusters();
         int[][][] previousMatrix = previous.getMatrix();
         if (previousMatrix.length == 1) {//one cluster already
             return previous;
         }
-        int[] coefficient = previous.getCoefficient();
         ArrayList<Integer> important = previous.getImportant();
         //calculatin centers
-        int[][] calculateCenter = counter.calculateCenter(previousMatrix);
-        int[] rating = counter.choseCenter(calculateCenter, coefficient, important);
-        ArrayList<Integer> center = analyser.getMaxvalueIndex(rating);
-        //if with important criterion center dont exist
-        if (center.isEmpty()) {
-            rating = counter.choseCenter(calculateCenter, coefficient);
-            center = analyser.getMaxvalueIndex(rating);
+        if (previousMatrix[0].length == 2) {
+            Result current = rebuildResult(previous, 0, 1);
+            return current;
         }
-        //get pair of cluster to combine
-        int[] pair = getPair(center, previousMatrix, important);
+        int[][] calculateCenter = counter.calculateCenter(previousMatrix);
+        int[] rating = counter.choseCenter(calculateCenter, important); //only for important criterion
+
+        ArrayList<Integer> centers = analyser.getMaxvalueIndex(rating);
+        if (centers.isEmpty()) {
+            rating = counter.choseCenter(calculateCenter);
+            centers = analyser.getMaxvalueIndex(rating);
+        }
+        int[][] pointToPoint = counter.calculatePointForCenter(previousMatrix, important);
+        int[] pair = new int[0];
+        try {
+            pair = getPair(previousMatrix, pointToPoint, centers);
+        } catch (Exception e) {
+            logger.error("pair with important criterion not found");
+            pointToPoint = counter.calculatePointForCenter(previousMatrix);
+            try {
+                pair = getPair(previousMatrix, pointToPoint, centers);
+            } catch (Exception ex) {
+                logger.error("pair not found");
+                pair = getPair(0, centers.get(0));
+            }
+        }
         int firstCluster = pair[0];
         int secondCluster = pair[1];
+
+
         //rebuild matrix and clusterName
-        int[][][] newMatrix = rebuildAllMatrix(previousMatrix, firstCluster, secondCluster);
-        ArrayList<ArrayList<String>> newCluster = rebuildClusterName(previousClusters, firstCluster, secondCluster);
-        //calculate current function
-        long function = counter.calculateFunction(newMatrix, coefficient, important);
-        Result currentIteration = new Result();
-        currentIteration.setClusters(newCluster);
-        currentIteration.setCoefficient(coefficient);
-        currentIteration.setMatrix(newMatrix);
-        currentIteration.setImportant(important);
-        currentIteration.setResultOfClustering(function);
-        //if function better than privious
-        if (previous.getBest() == null || previous.getBest().getResultOfClustering() < function) {
-            currentIteration.setBest(new Best(currentIteration));
-        } else {
-            currentIteration.setBest(previous.getBest());
-        }
+        Result currentIteration = rebuildResult(previous, firstCluster, secondCluster);
         return currentIteration;
     }
+
 
     /**
      * rebuild a array of cluster Names
@@ -125,17 +129,21 @@ public class ClusterWork {
                 if (i == second || j == second) {//this is removed cluster
                     continue;
                 }
-                int indexI = j > second ? j - 1 : j;
-                int indexJ = i > second ? i - 1 : i;
-                if (i == first || j == second || j == first) {
-
-                    int sum = matrix[i][j] + matrix[second][j];
-                    resulted[indexJ][indexI] = sum;
+                int indexJ = j > second ? j - 1 : j;
+                int indexI = i > second ? i - 1 : i;
+                if (i == first) {
+                    int sum = matrix[first][j] + matrix[second][j];
                     resulted[indexI][indexJ] = sum;
+                    resulted[indexJ][indexI] = sum;
                 }//set inner number of cluster
                 else {
-                    resulted[indexJ][indexI] = matrix[i][j];
+                    if (j == first) {
+                        int sum = matrix[i][first] + matrix[i][second];
+                        resulted[indexI][indexJ] = sum;
+                        resulted[indexJ][indexI] = sum;
+                    }
                     resulted[indexI][indexJ] = matrix[i][j];
+                    resulted[indexJ][indexI] = matrix[i][j];
                 }
             }
         }
@@ -143,31 +151,74 @@ public class ClusterWork {
     }
 
     /**
-     * find a pair to combine
+     * get pair to combine firstly choosing a
      *
-     * @param center    center wich find in
-     * @param matrix
-     * @param important
+     * @param matrix                matrix of graph ,used to understand if center is cluster
+     * @param pointToPointImportant matrix of connection(only important ) between vertex
+     * @param centers               center to chose best pair
      * @return pair to combine
+     * @throws Exception if maxValue is 0 (no best conection)
      */
-    public int[] getPair(ArrayList<Integer> center, int[][][] matrix, ArrayList<Integer> important) {
-        //max[0]=value of max element
-        //max[1]= index of center
-        //rating of cluster for each center
-        int[][] pointForCenter = counter.calculatePointForCenter(matrix, important);
-        int[][] raiting = analyser.getRaiting(pointForCenter, center, matrix);
-        ArrayList<Integer> indexSecond = analyser.getMaxvalueIndex(raiting[1]);
-        //if conection with important criterion
-        if (indexSecond.isEmpty()) {
-            pointForCenter = counter.calculatePointForCenter(matrix);
-            raiting = analyser.getRaiting(pointForCenter, center, matrix);
-            indexSecond = analyser.getMaxvalueIndex(raiting[1]);
-        }
-        int first = indexSecond.get(0).intValue();
-        int second = raiting[first][0];
+    public int[] getPair(int[][][] matrix, int[][] pointToPointImportant, ArrayList<Integer> centers) throws Exception {
+        int[] pair = new int[pointToPointImportant.length];
+        int maxValue = 0; //max value of all graph
+        int indexMaxValue = centers.get(0);
+        for (int i :
+                centers) {
+            int[] currentLine = pointToPointImportant[i];
+            //value of best point
+            int bestPartner = 0;
+            int bestPartnerValue = 0;
+            //value of best cluster
+            int bestCluster = 0;
+            int bestClusterValue = 0;
+            //anylyse Current line
+            for (int j = 0; j < pointToPointImportant.length; j++) {
+                if (!analyser.isCluster(matrix, j)) {
+                    if (bestPartnerValue < currentLine[j]) {
+                        bestPartner = j;
+                        bestPartnerValue = currentLine[j];
+                    }
+                } else {
+                    if (bestClusterValue < currentLine[j]) {
+                        bestCluster = j;
+                        bestClusterValue = currentLine[j];
+                    }
+                }
+            }
+            //diference between two best value
+            int diference = bestClusterValue - bestPartnerValue;
 
-        return getPair(first, second);
+            if (bestClusterValue > bestPartnerValue && diference > 2) {// if cluster better than poin more than 2
+                pair[i] = bestCluster;
+                if (maxValue < bestClusterValue) {//set best of center
+                    indexMaxValue = i;
+                    maxValue = bestClusterValue;
+                }
+
+            } else {
+                if (maxValue < bestPartnerValue) {
+                    indexMaxValue = i;
+                    maxValue = bestPartnerValue;
+                }
+                pair[i] = bestPartner;
+            }
+
+            logger.trace("\t\t\tpoint " + i);
+            logger.trace("bestCuster " + bestCluster);
+            logger.trace("bestValueCuster " + bestClusterValue);
+            logger.trace("bestPartner " + bestPartner);
+            logger.trace("bestValuePartner " + bestPartnerValue);
+
+        }
+        if (maxValue == 0) {
+            throw new Exception("empty");
+        }
+        logger.trace("cluster with index " + indexMaxValue + " have a " + maxValue);
+        logger.trace("cluster with index " + indexMaxValue + " pair with " + pair[indexMaxValue]);
+        return getPair(indexMaxValue, pair[indexMaxValue]);
     }
+
 
     /**
      * set in ascending order
@@ -189,5 +240,41 @@ public class ClusterWork {
         return pair;
     }
 
+    /**
+     * combine in cluster  obgect with first and second index
+     *
+     * @param previous previous iteration
+     * @param first    first index
+     * @param second   second index
+     * @return result of current iteration
+     */
+    public Result rebuildResult(Result previous, int first, int second) {
+        ArrayList<ArrayList<String>> previousClusters = previous.getClusters();
+        int[][][] previousMatrix = previous.getMatrix();
+
+        int[] coefficient = previous.getCoefficient();
+        ArrayList<Integer> important = previous.getImportant();
+
+        int[][][] newMatrix = rebuildAllMatrix(previousMatrix, first, second);
+        logger.trace("combine " + first + "+" + second);
+
+
+        ArrayList<ArrayList<String>> newCluster = rebuildClusterName(previousClusters, first, second);
+        //calculate current function
+        long function = counter.calculateFunction(newMatrix, coefficient, important);
+        Result currentIteration = new Result();
+        currentIteration.setClusters(newCluster);
+        currentIteration.setCoefficient(coefficient);
+        currentIteration.setMatrix(newMatrix);
+        currentIteration.setImportant(important);
+        currentIteration.setResultOfClustering(function);
+        //if function better than privious
+        if (previous.getBest() == null || previous.getBest().getResultOfClustering() < function) {
+            currentIteration.setBest(new Best(currentIteration));
+        } else {
+            currentIteration.setBest(previous.getBest());
+        }
+        return currentIteration;
+    }
 
 }

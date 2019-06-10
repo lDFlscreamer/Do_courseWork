@@ -82,10 +82,10 @@ public class Analyser {
                 pair[1][i] = 0;
             }
             //set value index
-            pair[0][i] = maxvalueIndex.get(0);
+            pair[1][i] = maxvalueIndex.get(0);
             //set value
             OptionalInt max = Arrays.stream(current).max();
-            pair[1][i] = isCluster(matrix, i) ? max.getAsInt() - 1 : max.getAsInt();
+            pair[0][i] = isCluster(matrix, i) ? max.getAsInt() : max.getAsInt();
         }
         return pair;
     }

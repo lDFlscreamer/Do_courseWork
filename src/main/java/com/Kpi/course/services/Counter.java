@@ -1,5 +1,8 @@
 package com.Kpi.course.services;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -15,6 +18,10 @@ import java.util.Arrays;
  */
 @Service
 public class Counter {
+    private static final Logger logger = LoggerFactory.getLogger(Counter.class);
+
+    @Autowired
+    private Analyser analyser;
 
     /**
      * calculate amount of each point
@@ -105,16 +112,17 @@ public class Counter {
      * first coordinate - rating of point
      * second coordinate - isCluster
      */
-    public int[] choseCenter(int[][] matrixDistances, int[] coefficient, ArrayList<Integer> important) {
+    public int[] choseCenter(int[][] matrixDistances, ArrayList<Integer> important) {
         int[] result = new int[matrixDistances.length];
 
         for (int i = 0; i < matrixDistances.length; i++) {
             int rating = 0;
             for (int j = 0; j < matrixDistances[0].length; j++) {
                 if (important.contains(j)) {
-                    rating += matrixDistances[i][j] * coefficient[j];
+                    rating += matrixDistances[i][j];
                 }
             }
+//
             result[i] = rating;
         }
         return result;
@@ -130,25 +138,22 @@ public class Counter {
     public int[][] calculatePointForCenter(int[][][] matrix, ArrayList<Integer> important) {
         int[][] result = new int[matrix[0].length][matrix[0].length];
 
-
-        for (int i = 0; i < matrix[0].length; i++) {
-            for (int j = 0; j < matrix[0][0].length; j++) {
-                if (i == j) { //is same cluster
-                    continue;
-                }
+            logger.trace("\t\tcalculatePointForCenter");
+        for (int i = 0; i < matrix[0][0].length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
                 int amount = 0;
                 for (int k = 0; k < matrix.length; k++) {
-                    if (!important.contains(k)) { //not important criterion
+                    if (!important.contains(k)) { //not important
                         continue;
                     }
-                    if (matrix[k][i][j] != 0) { //increment a amount of criterion
+                    if (matrix[k][i][j] != 0) {//if connection is exist
                         amount++;
                     }
                 }
-                result[i][j] = amount;
+                result[i][j]=amount;//set amount of conection
+                logger.trace("result["+i+"]"+"["+j+"]"+"="+result[i][j]);
             }
         }
-
         return result;
     }
 
@@ -161,23 +166,17 @@ public class Counter {
     public int[][] calculatePointForCenter(int[][][] matrix) {
         int[][] result = new int[matrix[0].length][matrix[0].length];
 
-
-        for (int i = 0; i < matrix[0].length; i++) {
-            for (int j = 0; j < matrix[0][0].length; j++) {
-                if (i == j) { //is same cluster
-                    result[i][j] = 0;
-                    continue;
-                }
+        for (int i = 0; i < matrix[0][0].length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
                 int amount = 0;
                 for (int k = 0; k < matrix.length; k++) {
-                    if (matrix[k][i][j] != 0) { //increment a amount of criterion
+                    if (matrix[k][i][j] != 0) {//if connection is exist
                         amount++;
                     }
                 }
-                result[i][j] = amount;
+                result[i][j]=amount;//set amount of conection
             }
         }
-
         return result;
     }
 
@@ -191,6 +190,9 @@ public class Counter {
     public long calculateFunction(int[][][] matrix, int[] coefficient, ArrayList<Integer> important) {
         int sum = 0;
         int[][] conection = calculateCenter(matrix);
+
+
+
         for (int i = 0; i < matrix[0].length; i++) {
             int clusterValue = 0;
             for (int j = 0; j < matrix.length; j++) {
@@ -198,10 +200,11 @@ public class Counter {
                     continue;
                 }//if this is not important criterion
                 clusterValue += conection[i][j] * (matrix[j][i][i] * coefficient[j]);//calculate value for each cluster
+               logger.trace("clusterValue = " + clusterValue + "=" + conection[i][j] + "*" + "(" + matrix[j][i][i] + "*" + coefficient[j] + ")");
             }
             sum += clusterValue;//add Cluster value
         }
-
+       logger.trace("sum = " + sum);
         return sum;
     }
 
