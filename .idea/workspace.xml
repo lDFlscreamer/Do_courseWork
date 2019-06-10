@@ -1,99 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="758352b0-06a2-4a3a-830f-62d7b56af228" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClusterWork.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseWork.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/allclasses.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/CourseWork.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/Main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/constant/GeneralConstants.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/constant/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/constant/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/controllers/MainController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/controllers/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/controllers/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/enities/Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/enities/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/enities/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/services/Analyser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/services/ClusterWork.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/services/Counter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/services/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/com/Delta/course/services/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/constant-values.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/deprecated-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/index-files/index-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/index-files/index-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/index-files/index-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/index-files/index-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/external/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-migrate-3.0.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-ui.structure.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/jquery-ui.structure.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/jszip-utils/dist/jszip-utils-ie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/jszip-utils/dist/jszip-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/jszip-utils/dist/jszip-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/jszip/dist/jszip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/jquery/jszip/dist/jszip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/member-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/overview-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/package-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/resources/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/type-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/type-search-index.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/courseWork.kotlin_module" afterDir="false" />
+    <list default="true" id="758352b0-06a2-4a3a-830f-62d7b56af228" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Best.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -125,26 +40,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="185">
+              <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#choseCenter#0;class#Counter#0" />
                 <element signature="method#choseCenter#1;class#Counter#0" />
-                <element signature="method#choseCenter#2;class#Counter#0" />
                 <element signature="method#calculatePointForCenter#0;class#Counter#0" />
                 <element signature="method#calculatePointForCenter#1;class#Counter#0" />
-                <element signature="method#calculateFunction#0;class#Counter#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+            <state relative-caret-position="238">
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#562#563#0" expanded="true" />
@@ -155,12 +67,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="219">
+              <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1379#1380#0" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="method#checkmatrix#0;class#Main#0" />
+                <element signature="method#checkName#0;class#Main#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#doAglomeration#0;class#MainController#0" />
               </folding>
             </state>
           </provider>
@@ -176,30 +117,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#isCluster#0;class#Analyser#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+            <state relative-caret-position="270">
+              <caret line="182" column="40" lean-forward="true" selection-start-line="182" selection-start-column="40" selection-end-line="182" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#rebuildClusterName#0;class#ClusterWork#0" />
-                <element signature="method#rebuildAllMatrix#0;class#ClusterWork#0" />
-                <element signature="method#rebuildPartOfMatrix#0;class#ClusterWork#0" />
-                <element signature="method#getPair#0;class#ClusterWork#0" />
-                <element signature="method#getPair#1;class#ClusterWork#0" />
               </folding>
             </state>
           </provider>
@@ -208,8 +132,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="12">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Best.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -256,6 +192,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/CourseWork.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Best.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java" />
       </list>
     </option>
   </component>
@@ -323,6 +267,33 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courseWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courseWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="enities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courseWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -350,6 +321,11 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\c++\JAVA\courseWork\src\main\java\com\Kpi\course" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -363,6 +339,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.CourseWork ">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Kpi.course.Main" />
+      <module name="courseWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Kpi.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Delta.course.Main" />
       <module name="courseWork" />
@@ -393,10 +382,12 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Spring Boot.CourseWork " />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.CourseWork " />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -424,12 +415,20 @@
       <workItem from="1560076220665" duration="40659000" />
       <workItem from="1560165658581" duration="13618000" />
       <workItem from="1560179540504" duration="2073000" />
-      <workItem from="1560182061312" duration="2693000" />
+      <workItem from="1560182061312" duration="13514000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1560186134918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560186134919</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70289000" />
+    <option name="totallyTimeSpent" value="81110000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -443,9 +442,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1231" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.2855925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.2855925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -456,13 +454,13 @@
       <window_info id="Web" order="8" sideWeight="0.50165564" side_tool="true" weight="0.2753623" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49957374" weight="0.6589404" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49957374" weight="0.84933776" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5794702" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" x="22" y="261" width="1173" height="199" id="TODO" order="6" weight="0.3294702" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3294702" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3294702" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50042623" side_tool="true" weight="0.56125826" />
@@ -493,53 +491,141 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java</url>
           <line>36</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java</url>
           <line>74</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java</url>
           <line>71</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java</url>
           <line>77</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java</url>
           <line>101</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java</url>
           <line>105</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java</url>
           <line>180</line>
           <properties />
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java</url>
+          <line>222</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java</url>
+          <line>213</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java</url>
+          <line>191</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java</url>
+          <line>188</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java</url>
+          <line>182</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>(matrix[j][i][i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>conection[i][j]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>coefficient[j]</expression-string>
         <language-id>JAVA</language-id>
@@ -572,16 +658,6 @@
       </expression>
       <expression>
         <expression-string>matrix[2]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>matrix[1]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>matrix[3]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -1115,46 +1191,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#isCluster#0;class#Analyser#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#rebuildClusterName#0;class#ClusterWork#0" />
-            <element signature="method#rebuildAllMatrix#0;class#ClusterWork#0" />
-            <element signature="method#rebuildPartOfMatrix#0;class#ClusterWork#0" />
-            <element signature="method#getPair#0;class#ClusterWork#0" />
-            <element signature="method#getPair#1;class#ClusterWork#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Delta/course/constant/GeneralConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,29 +1211,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java">
+    <entry file="file://$PROJECT_DIR$/doc/jquery/jszip/dist/jszip.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#choseCenter#0;class#Counter#0" />
-            <element signature="method#choseCenter#1;class#Counter#0" />
-            <element signature="method#choseCenter#2;class#Counter#0" />
-            <element signature="method#calculatePointForCenter#0;class#Counter#0" />
-            <element signature="method#calculatePointForCenter#1;class#Counter#0" />
-            <element signature="method#calculateFunction#0;class#Counter#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1057" column="3" selection-start-line="1057" selection-start-column="3" selection-end-line="1057" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1204,21 +1225,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/jquery/jszip/dist/jszip.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1057" column="3" selection-start-line="1057" selection-start-column="3" selection-end-line="1057" selection-end-column="3" />
+        <state relative-caret-position="12">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Best.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Games/java/jdk/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="391" column="30" selection-start-line="391" selection-start-column="30" selection-end-line="391" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#doAglomeration#0;class#MainController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="method#checkmatrix#0;class#Main#0" />
+            <element signature="method#checkName#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#choseCenter#1;class#Counter#0" />
+            <element signature="method#calculatePointForCenter#0;class#Counter#0" />
+            <element signature="method#calculatePointForCenter#1;class#Counter#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+        <state relative-caret-position="238">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#562#563#0" expanded="true" />
             <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="182" column="40" lean-forward="true" selection-start-line="182" selection-start-column="40" selection-end-line="182" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#rebuildClusterName#0;class#ClusterWork#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

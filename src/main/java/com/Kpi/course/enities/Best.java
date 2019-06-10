@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class Result {
+public class Best {
     /**
      * arrays of cluster names
      */
@@ -20,18 +20,14 @@ public class Result {
      * the result of function
      */
     private long resultOfClustering;
-    /**
-     * array  coefficients of  important
-     */
-    private int[] coefficient;
-    /**
-     * array of important criterion
-     */
-    private ArrayList<Integer> important;
-    /**
-     * best result of clustering
-     */
-    private Best best;
 
+    public Best() {
+    }
 
+    public Best(Result result) {
+        this();
+        this.setClusters(result.getClusters());
+        this.setMatrix(result.getMatrix());
+        this.setResultOfClustering(result.getResultOfClustering());
+    }
 }

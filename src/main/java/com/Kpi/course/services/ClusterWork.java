@@ -1,5 +1,6 @@
 package com.Kpi.course.services;
 
+import com.Kpi.course.enities.Best;
 import com.Kpi.course.enities.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -67,8 +68,10 @@ public class ClusterWork {
         currentIteration.setImportant(important);
         currentIteration.setResultOfClustering(function);
         //if function better than privious
-        if (previous.getBest().getResultOfClustering() < function) {
-            currentIteration.setBest(currentIteration);
+        if (previous.getBest() == null || previous.getBest().getResultOfClustering() < function) {
+            currentIteration.setBest(new Best(currentIteration));
+        } else {
+            currentIteration.setBest(previous.getBest());
         }
         return currentIteration;
     }
