@@ -13,11 +13,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 
 /**
- * end-pint to clustering
+ * end-pint from some functions
  * used some services like {@link ClusterWork}
  *
  * @version 1.0
- * @see ClusterWork
  */
 @RestController
 public class MainController {

@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+
 /**
  * service for counting and calculate some info about graph
  * and cluster
@@ -104,6 +105,7 @@ public class Counter {
      * calculate without coefficient
      * only for a important point
      *
+     * @param important       important criterion
      * @param matrixDistances matrix where for each point calculate amount of connection via criterion
      *                        (result of calculateCenter)
      *                        first coordinate - point
@@ -138,7 +140,7 @@ public class Counter {
     public int[][] calculatePointForCenter(int[][][] matrix, ArrayList<Integer> important) {
         int[][] result = new int[matrix[0].length][matrix[0].length];
 
-            logger.trace("\t\tcalculatePointForCenter");
+        logger.trace("\t\tcalculatePointForCenter");
         for (int i = 0; i < matrix[0][0].length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
                 int amount = 0;
@@ -150,8 +152,8 @@ public class Counter {
                         amount++;
                     }
                 }
-                result[i][j]=amount;//set amount of conection
-                logger.trace("result["+i+"]"+"["+j+"]"+"="+result[i][j]);
+                result[i][j] = amount;//set amount of conection
+                logger.trace("result[" + i + "]" + "[" + j + "]" + "=" + result[i][j]);
             }
         }
         return result;
@@ -174,7 +176,7 @@ public class Counter {
                         amount++;
                     }
                 }
-                result[i][j]=amount;//set amount of conection
+                result[i][j] = amount;//set amount of conection
             }
         }
         return result;
@@ -183,6 +185,7 @@ public class Counter {
     /**
      * calculate a function for a graph
      *
+     * @param important   important criterion
      * @param matrix      matrix of graph
      * @param coefficient coefficient  for a criterion
      * @return value of function
@@ -192,22 +195,21 @@ public class Counter {
         int[][] conection = calculateCenter(matrix);
 
 
-
         for (int i = 0; i < matrix[0].length; i++) {
             int clusterValue = 0;
-            int sumCoefficient=0;
-            int sumInerValue=0;
+            int sumCoefficient = 0;
+            int sumInerValue = 0;
             for (int j = 0; j < matrix.length; j++) {
                 if (!important.contains(j)) {
                     continue;
                 }//if this is not important criterion
-                sumInerValue+=matrix[j][i][i];
-                sumCoefficient+=conection[i][j]*coefficient[j];
-               logger.trace("clusterValue = " + clusterValue + "=" + conection[i][j] + "*" + "(" + matrix[j][i][i] + "*" + coefficient[j] + ")");
+                sumInerValue += matrix[j][i][i];
+                sumCoefficient += conection[i][j] * coefficient[j];
+                logger.trace("clusterValue = " + clusterValue + "=" + conection[i][j] + "*" + "(" + matrix[j][i][i] + "*" + coefficient[j] + ")");
             }
-            sum += sumCoefficient*sumInerValue;//add Cluster value
+            sum += sumCoefficient * sumInerValue;//add Cluster value
         }
-       logger.trace("sum = " + sum);
+        logger.trace("sum = " + sum);
         return sum;
     }
 

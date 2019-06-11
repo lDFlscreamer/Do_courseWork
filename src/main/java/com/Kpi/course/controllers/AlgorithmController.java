@@ -9,6 +9,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * end-point for execute all algorithm
+ * * used some services like {@link ClusterWork}
+ * @see Result
+ * @version 1.0
+ */
 @RestController
 public class AlgorithmController {
     private static final Logger logger = LoggerFactory.getLogger(AlgorithmController.class);
