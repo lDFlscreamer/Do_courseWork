@@ -22,7 +22,7 @@ public class Best {
     /**
      * the result of function
      */
-    private long resultOfClustering;
+    private float resultOfClustering;
 
     public Best() {
     }

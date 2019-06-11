@@ -190,14 +190,14 @@ public class Counter {
      * @param coefficient coefficient  for a criterion
      * @return value of function
      */
-    public long calculateFunction(int[][][] matrix, int[] coefficient, ArrayList<Integer> important) {
-        int sum = 0;
+    public float calculateFunction(int[][][] matrix, float[] coefficient, ArrayList<Integer> important) {
+        float sum = 0;
         int[][] conection = calculateCenter(matrix);
 
 
         for (int i = 0; i < matrix[0].length; i++) {
             int clusterValue = 0;
-            int sumCoefficient = 0;
+            float sumCoefficient = 0;
             int sumInerValue = 0;
             for (int j = 0; j < matrix.length; j++) {
                 if (!important.contains(j)) {

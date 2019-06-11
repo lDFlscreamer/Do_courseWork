@@ -53,10 +53,10 @@ public class ClusterWork {
         int[][] calculateCenter = counter.calculateCenter(previousMatrix);
         int[] rating = counter.choseCenter(calculateCenter, important); //only for important criterion
 
-        ArrayList<Integer> centers = analyser.getMaxvalueIndex(rating,previousMatrix);
+        ArrayList<Integer> centers = analyser.getMaxvalueIndex(rating, previousMatrix);
         if (centers.isEmpty()) {
             rating = counter.choseCenter(calculateCenter);
-            centers = analyser.getMaxvalueIndex(rating,previousMatrix);
+            centers = analyser.getMaxvalueIndex(rating, previousMatrix);
         }
         int[][] pointToPoint = counter.calculatePointForCenter(previousMatrix, important);
         int[] pair = new int[0];
@@ -104,7 +104,7 @@ public class ClusterWork {
         int[][] calculateCenter = counter.calculateCenter(previousMatrix);
         int[] rating = counter.choseCenter(calculateCenter); //only for important criterion
 
-        ArrayList<Integer> centers = analyser.getMaxvalueIndex(rating,previousMatrix);
+        ArrayList<Integer> centers = analyser.getMaxvalueIndex(rating, previousMatrix);
 
         int[][] pointToPoint = counter.calculatePointForCenter(previousMatrix);
         int[] pair = new int[0];
@@ -127,16 +127,31 @@ public class ClusterWork {
      * rebuild a array of cluster Names
      *
      * @param previous array who describe a each cluster of graph
-     * @param first   index  cluster to combine
-     * @param second  index of another cluster
+     * @param first    index  cluster to combine
+     * @param second   index of another cluster
      * @return new array after combination
      * @see Result
      */
     public ArrayList<ArrayList<String>> rebuildClusterName(ArrayList<ArrayList<String>> previous, int first, int second) {
-        ArrayList<ArrayList<String>> result = new ArrayList<>(previous);
-        ArrayList<String> cluster = result.get(second);
-        result.remove(second);
-        result.get(first).addAll(cluster);
+        ArrayList<ArrayList<String>> result = new ArrayList<>();
+        for (int i = 0; i < previous.size(); i++) {
+            if (i != first && i != second) {
+                result.add(new ArrayList<>(previous.get(i)));
+            } else {
+                if (i == first) {
+                    ArrayList<String> cluster = new ArrayList<>();
+                    for (String firstValue :
+                            previous.get(first)) {
+                        cluster.add(firstValue);
+                    }
+                    for (String secondValue :
+                            previous.get(second)) {
+                        cluster.add(secondValue);
+                    }
+                    result.add(cluster);
+                }
+            }
+        }
         return result;
     }
 
@@ -232,7 +247,7 @@ public class ClusterWork {
             //diference between two best value
             int diference = bestClusterValue - bestPartnerValue;
 
-            if (bestClusterValue > bestPartnerValue ) {// if cluster better than poin more than 2
+            if (bestClusterValue > bestPartnerValue) {// if cluster better than poin more than 2
                 pair[i] = bestCluster;
                 if (maxValue < bestClusterValue) {//set best of center
                     indexMaxValue = i;
@@ -294,7 +309,7 @@ public class ClusterWork {
         ArrayList<ArrayList<String>> previousClusters = previous.getClusters();
         int[][][] previousMatrix = previous.getMatrix();
 
-        int[] coefficient = previous.getCoefficient();
+        float[] coefficient = previous.getCoefficient();
         ArrayList<Integer> important = previous.getImportant();
 
         int[][][] newMatrix = rebuildAllMatrix(previousMatrix, first, second);
@@ -303,7 +318,7 @@ public class ClusterWork {
 
         ArrayList<ArrayList<String>> newCluster = rebuildClusterName(previousClusters, first, second);
         //calculate current function
-        long function = counter.calculateFunction(newMatrix, coefficient, important);
+       float  function = counter.calculateFunction(newMatrix, coefficient, important);
         Result currentIteration = new Result();
         currentIteration.setClusters(newCluster);
         currentIteration.setCoefficient(coefficient);

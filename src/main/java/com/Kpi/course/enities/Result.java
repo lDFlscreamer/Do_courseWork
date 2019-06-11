@@ -21,11 +21,11 @@ public class Result {
     /**
      * the result of function
      */
-    private long resultOfClustering;
+    private float resultOfClustering;
     /**
      * array  coefficients of  important
      */
-    private int[] coefficient;
+    private float[] coefficient;
     /**
      * array of important criterion
      */
