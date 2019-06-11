@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="758352b0-06a2-4a3a-830f-62d7b56af228" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -113,20 +111,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Best.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="335">
+              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Best#1;class#Best#0" />
@@ -150,12 +148,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1028#1317#0" expanded="true" />
-                <element signature="e#1316#1317#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,8 +205,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Best.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java" />
       </list>
     </option>
   </component>
@@ -244,6 +240,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,18 +301,10 @@
               <item name="course" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="courseWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -442,6 +431,7 @@
       <workItem from="1560242271686" duration="17191000" />
       <workItem from="1560270395021" duration="33000" />
       <workItem from="1560279143524" duration="1812000" />
+      <workItem from="1560282424754" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1560186134918</created>
@@ -492,11 +482,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560268489418</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="connect">
+      <created>1560282630418</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560282630418</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119482000" />
+    <option name="totallyTimeSpent" value="119736000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -510,9 +507,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1231" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.30605286" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.31116796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -559,7 +555,8 @@
     <MESSAGE value="all template of project" />
     <MESSAGE value="done project" />
     <MESSAGE value="add feature editing for javadoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="add feature editing for javadoc" />
+    <MESSAGE value="connect" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1480,17 +1477,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="221">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Best.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="335">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Best#1;class#Best#0" />
@@ -1500,23 +1500,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1028#1317#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
