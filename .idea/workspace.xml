@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="758352b0-06a2-4a3a-830f-62d7b56af228" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Best.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Best.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
+            <state relative-caret-position="2516">
               <caret line="209" column="12" selection-start-line="209" selection-start-column="12" selection-end-line="209" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,148 +66,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="2346">
               <caret line="146" column="9" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4117#4136#0" expanded="true" />
-                <element signature="e#4403#4598#1" />
-                <element signature="e#4877#4886#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/com.Kpi.course">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.Kpi.course</OriginalElement>
-              <nodes>
-                <node x="211.4794117647059" y="630.0">com.Kpi.course.services.ClusterWork</node>
-                <node x="65.36176470588236" y="67.0">com.Kpi.course.services.Analyser</node>
-                <node x="783.1044117647059" y="960.5">com.Kpi.course.controllers.AlgorithmController</node>
-                <node x="684.5999999999999" y="277.0">com.Kpi.course.enities.Result</node>
-                <node x="524.9617647058824" y="960.5">com.Kpi.course.controllers.IterationController</node>
-                <node x="107.79950980392164" y="950.0">com.Kpi.course.Main</node>
-                <node x="36.0" y="310.5">com.Kpi.course.services.Counter</node>
-                <node x="628.3499999999999" y="0.0">com.Kpi.course.enities.Best</node>
-                <node x="767.6044117647059" y="718.0">com.Kpi.course.controllers.MainController</node>
-                <node x="0.0" y="1132.0">com.Kpi.course.CourseWork</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.Kpi.course.controllers.IterationController" target="com.Kpi.course.services.ClusterWork">
-                  <point x="-57.0" y="-58.0" />
-                  <point x="581.9617647058824" y="930.0" />
-                  <point x="527.7294117647059" y="930.0" />
-                  <point x="63.25" y="135.0" />
-                </edge>
-                <edge source="com.Kpi.course.enities.Result" target="com.Kpi.course.enities.Best">
-                  <point x="-56.25" y="-146.5" />
-                  <point x="0.0" y="113.5" />
-                </edge>
-                <edge source="com.Kpi.course.controllers.IterationController" target="com.Kpi.course.enities.Result">
-                  <point x="57.0" y="-58.0" />
-                  <point x="695.9617647058824" y="930.0" />
-                  <point x="727.9794117647059" y="930.0" />
-                  <point x="727.9794117647059" y="610.0" />
-                  <point x="778.3499999999999" y="610.0" />
-                  <point x="-18.75" y="146.5" />
-                </edge>
-                <edge source="com.Kpi.course.Main" target="com.Kpi.course.services.Counter">
-                  <point x="0.0" y="-68.5" />
-                  <point x="179.29950980392164" y="930.0" />
-                  <point x="184.56274509803927" y="930.0" />
-                  <point x="184.56274509803927" y="610.0" />
-                  <point x="207.5" y="610.0" />
-                  <point x="0.0" y="113.0" />
-                </edge>
-                <edge source="com.Kpi.course.controllers.AlgorithmController" target="com.Kpi.course.services.ClusterWork">
-                  <point x="-57.0" y="-58.0" />
-                  <point x="840.1044117647059" y="920.0" />
-                  <point x="654.2294117647059" y="920.0" />
-                  <point x="189.75" y="135.0" />
-                </edge>
-                <edge source="com.Kpi.course.services.ClusterWork" target="com.Kpi.course.enities.Result">
-                  <point x="101.20000000000005" y="-135.0" />
-                  <point x="565.679411764706" y="590.0" />
-                  <point x="703.3499999999999" y="590.0" />
-                  <point x="-93.75" y="146.5" />
-                </edge>
-                <edge source="com.Kpi.course.services.ClusterWork" target="com.Kpi.course.enities.Best">
-                  <point x="0.0" y="-135.0" />
-                  <point x="464.4794117647059" y="610.0" />
-                  <point x="442.6044117647059" y="610.0" />
-                  <point x="442.6044117647059" y="252.0" />
-                  <point x="665.8499999999999" y="252.0" />
-                  <point x="-75.0" y="113.5" />
-                </edge>
-                <edge source="com.Kpi.course.services.ClusterWork" target="com.Kpi.course.services.Counter">
-                  <point x="-202.39999999999992" y="-135.0" />
-                  <point x="262.079411764706" y="610.0" />
-                  <point x="321.8333333333333" y="610.0" />
-                  <point x="114.33333333333331" y="113.0" />
-                </edge>
-                <edge source="com.Kpi.course.services.Counter" target="com.Kpi.course.services.Analyser">
-                  <point x="0.0" y="-113.0" />
-                  <point x="207.5" y="252.0" />
-                  <point x="219.86176470588236" y="252.0" />
-                  <point x="0.0" y="46.5" />
-                </edge>
-                <edge source="com.Kpi.course.controllers.AlgorithmController" target="com.Kpi.course.enities.Result">
-                  <point x="57.0" y="-58.0" />
-                  <point x="954.1044117647059" y="600.0" />
-                  <point x="890.8499999999999" y="600.0" />
-                  <point x="93.75" y="146.5" />
-                </edge>
-                <edge source="com.Kpi.course.services.ClusterWork" target="com.Kpi.course.services.Analyser">
-                  <point x="-101.19999999999993" y="-135.0" />
-                  <point x="363.27941176470597" y="610.0" />
-                  <point x="431.6044117647059" y="610.0" />
-                  <point x="431.6044117647059" y="252.0" />
-                  <point x="322.86176470588236" y="252.0" />
-                  <point x="103.0" y="46.5" />
-                </edge>
-                <edge source="com.Kpi.course.enities.Best" target="com.Kpi.course.enities.Result">
-                  <point x="75.0" y="113.5" />
-                  <point x="815.8499999999999" y="252.0" />
-                  <point x="853.3499999999999" y="252.0" />
-                  <point x="56.25" y="-146.5" />
-                </edge>
-                <edge source="com.Kpi.course.controllers.MainController" target="com.Kpi.course.enities.Result">
-                  <point x="-44.0" y="-47.0" />
-                  <point x="811.6044117647059" y="610.0" />
-                  <point x="815.8499999999999" y="610.0" />
-                  <point x="18.75" y="146.5" />
-                </edge>
-                <edge source="com.Kpi.course.Main" target="com.Kpi.course.services.Analyser">
-                  <point x="-57.19999999999999" y="-68.5" />
-                  <point x="122.09950980392165" y="930.0" />
-                  <point x="25.5" y="930.0" />
-                  <point x="25.5" y="252.0" />
-                  <point x="116.86176470588236" y="252.0" />
-                  <point x="-103.0" y="46.5" />
-                </edge>
-                <edge source="com.Kpi.course.Main" target="com.Kpi.course.services.ClusterWork">
-                  <point x="28.600000000000023" y="-68.5" />
-                  <point x="207.89950980392166" y="920.0" />
-                  <point x="274.7294117647059" y="920.0" />
-                  <point x="-189.75" y="135.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.45179738562091504" x="123.08499095840864" y="521.2115732368896" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Inner Classes</Category>
-                <Category>Properties</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -218,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/IterationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="136">
               <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -230,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/AlgorithmController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
+            <state relative-caret-position="374">
               <caret line="29" column="53" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -242,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="4896">
               <caret line="326" column="33" selection-start-line="326" selection-start-column="33" selection-end-line="326" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -262,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="221">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -274,13 +134,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Best.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="386">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#Best#1;class#Best#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1028#1317#0" expanded="true" />
+                <element signature="e#1316#1317#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -326,7 +201,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Delta/course/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/IterationController.java" />
@@ -334,8 +208,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Best.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java" />
       </list>
     </option>
   </component>
@@ -369,7 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -441,6 +315,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -564,7 +439,9 @@
       <workItem from="1560179540504" duration="2073000" />
       <workItem from="1560182061312" duration="25656000" />
       <workItem from="1560234941731" duration="7194000" />
-      <workItem from="1560242271686" duration="15057000" />
+      <workItem from="1560242271686" duration="17191000" />
+      <workItem from="1560270395021" duration="33000" />
+      <workItem from="1560279143524" duration="1812000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1560186134918</created>
@@ -608,11 +485,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560242106312</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add feature editing for javadoc">
+      <created>1560268489418</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560268489418</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115503000" />
+    <option name="totallyTimeSpent" value="119482000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -628,7 +512,7 @@
     <frame x="-7" y="-7" width="1231" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.29582268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.30605286" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1349,16 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
@@ -1367,45 +1241,6 @@
             <element signature="imports" expanded="true" />
             <element signature="method#checkmatrix#0;class#Main#0" />
             <element signature="method#checkName#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#isCluster#0;class#Analyser#0" />
-            <element signature="method#getRaiting#0;class#Analyser#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/IterationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/AlgorithmController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="29" column="53" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1437,7 +1272,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="247.0" y="256.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="247.0" y="257.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1563,14 +1398,14 @@
               <point x="-189.75" y="135.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.45179738562091504" x="123.08499095840864" y="521.2115732368896" />
+          <settings layout="Hierarchic Group" zoom="0.45179738562091504" x="123.0" y="521.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
             <Category>Constructors</Category>
             <Category>Methods</Category>
-            <Category>Inner Classes</Category>
             <Category>Properties</Category>
+            <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -1579,7 +1414,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
+        <state relative-caret-position="2516">
           <caret line="209" column="12" selection-start-line="209" selection-start-column="12" selection-end-line="209" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1591,22 +1426,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/Analyser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#isCluster#0;class#Analyser#0" />
+            <element signature="method#getRaiting#0;class#Analyser#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="2346">
           <caret line="146" column="9" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4117#4136#0" expanded="true" />
-            <element signature="e#4403#4598#1" />
-            <element signature="e#4877#4886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/IterationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/controllers/AlgorithmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/services/ClusterWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="4896">
           <caret line="326" column="33" selection-start-line="326" selection-start-column="33" selection-end-line="326" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1616,20 +1480,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Best.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="386">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Best#1;class#Best#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/CourseWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1028#1317#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Kpi/course/enities/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
