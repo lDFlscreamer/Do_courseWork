@@ -1,7 +1,9 @@
 package com.Kpi.course.enities;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AccessLevel;
 import lombok.Data;
+import lombok.Getter;
 
 import java.util.ArrayList;
 
@@ -33,5 +35,9 @@ public class Result {
      */
     private Best best;
 
+    /**
+     * indicate the finish of algorithm
+     */
+    private boolean isFinished=false;
 
 }

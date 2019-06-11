@@ -195,14 +195,17 @@ public class Counter {
 
         for (int i = 0; i < matrix[0].length; i++) {
             int clusterValue = 0;
+            int sumCoefficient=0;
+            int sumInerValue=0;
             for (int j = 0; j < matrix.length; j++) {
                 if (!important.contains(j)) {
                     continue;
                 }//if this is not important criterion
-                clusterValue += conection[i][j] * (matrix[j][i][i] * coefficient[j]);//calculate value for each cluster
+                sumInerValue+=matrix[j][i][i];
+                sumCoefficient+=conection[i][j]*coefficient[j];
                logger.trace("clusterValue = " + clusterValue + "=" + conection[i][j] + "*" + "(" + matrix[j][i][i] + "*" + coefficient[j] + ")");
             }
-            sum += clusterValue;//add Cluster value
+            sum += sumCoefficient*sumInerValue;//add Cluster value
         }
        logger.trace("sum = " + sum);
         return sum;

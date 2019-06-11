@@ -19,17 +19,40 @@ public class Analyser {
     /**
      * get index of max value in array
      *
-     * @param array - array where need to get a index of max elements
+     * @param matrix matrix a graph ,for understand if is cluster
+     * @param array  - array where need to get a index of max elements
      * @return array of indexes (if  array have a few elements with max value)
      */
-    public ArrayList<Integer> getMaxvalueIndex(int[] array) {
+    public ArrayList<Integer> getMaxvalueIndex(int[] array, int[][][] matrix) {
         ArrayList<Integer> indexsOfMax = new ArrayList<>();
-        OptionalInt max = Arrays.stream(array).max();
-        if (!max.isPresent() || max.getAsInt() == 0) {
-            return indexsOfMax;
-        }
+
+        int maxValueCluster = 0;
+        int maxValuePratner = 0;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] == max.getAsInt()) {
+            if (isCluster(matrix, i)) { //if this a cluster
+                if (array[i] > maxValueCluster) {
+                    maxValueCluster = array[i];
+                }
+            } else {
+                if (array[i] > maxValuePratner) {
+                    maxValuePratner = array[i];
+
+                }
+            }
+        }
+        int diference = maxValueCluster - maxValuePratner;
+        int maxValue;
+        boolean isCluster;
+        if (maxValueCluster > maxValuePratner && diference > 2) {
+            maxValue=maxValueCluster;
+            isCluster=true;
+        } else {
+            isCluster=false;
+            maxValue=maxValuePratner;
+        }
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == maxValue && (isCluster(matrix,i)==isCluster)){
                 indexsOfMax.add(i);
             }
         }
@@ -75,7 +98,7 @@ public class Analyser {
             }
             int[] current = pointForCenter[i];
             //get index of max value
-            ArrayList<Integer> maxvalueIndex = getMaxvalueIndex(current);
+            ArrayList<Integer> maxvalueIndex = getMaxvalueIndex(current,matrix);
             //if max value is dont exist or 0
             if (maxvalueIndex.isEmpty()) {
                 pair[0][i] = 0;

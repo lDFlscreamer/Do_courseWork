@@ -39,22 +39,24 @@ public class ClusterWork {
     public Result clusterItarationFirstAlgorithm(Result previous) {
         //gets previous data
         int[][][] previousMatrix = previous.getMatrix();
-        if (previousMatrix.length == 1) {//one cluster already
+        if (previousMatrix[0].length == 1) {//one cluster already
+            previous.setFinished(true);
             return previous;
         }
         ArrayList<Integer> important = previous.getImportant();
         //calculatin centers
         if (previousMatrix[0].length == 2) {
             Result current = rebuildResult(previous, 0, 1);
+            current.setFinished(true);
             return current;
         }
         int[][] calculateCenter = counter.calculateCenter(previousMatrix);
         int[] rating = counter.choseCenter(calculateCenter, important); //only for important criterion
 
-        ArrayList<Integer> centers = analyser.getMaxvalueIndex(rating);
+        ArrayList<Integer> centers = analyser.getMaxvalueIndex(rating,previousMatrix);
         if (centers.isEmpty()) {
             rating = counter.choseCenter(calculateCenter);
-            centers = analyser.getMaxvalueIndex(rating);
+            centers = analyser.getMaxvalueIndex(rating,previousMatrix);
         }
         int[][] pointToPoint = counter.calculatePointForCenter(previousMatrix, important);
         int[] pair = new int[0];
@@ -89,19 +91,20 @@ public class ClusterWork {
     public Result clusterItarationSecondAlgorithm(Result previous) {
         //gets previous data
         int[][][] previousMatrix = previous.getMatrix();
-        if (previousMatrix.length == 1) {//one cluster already
+        if (previousMatrix[0].length == 1) {//one cluster already
+            previous.setFinished(true);
             return previous;
         }
-        ArrayList<Integer> important = previous.getImportant();
         //calculatin centers
         if (previousMatrix[0].length == 2) {
             Result current = rebuildResult(previous, 0, 1);
+            current.setFinished(true);
             return current;
         }
         int[][] calculateCenter = counter.calculateCenter(previousMatrix);
         int[] rating = counter.choseCenter(calculateCenter); //only for important criterion
 
-        ArrayList<Integer> centers = analyser.getMaxvalueIndex(rating);
+        ArrayList<Integer> centers = analyser.getMaxvalueIndex(rating,previousMatrix);
 
         int[][] pointToPoint = counter.calculatePointForCenter(previousMatrix);
         int[] pair = new int[0];
@@ -123,14 +126,14 @@ public class ClusterWork {
     /**
      * rebuild a array of cluster Names
      *
-     * @param previos array who describe a each cluster of graph
+     * @param previous array who describe a each cluster of graph
      * @param first   index  cluster to combine
      * @param second  index of another cluster
      * @return new array after combination
      * @see Result
      */
-    public ArrayList<ArrayList<String>> rebuildClusterName(ArrayList<ArrayList<String>> previos, int first, int second) {
-        ArrayList<ArrayList<String>> result = new ArrayList<>(previos);
+    public ArrayList<ArrayList<String>> rebuildClusterName(ArrayList<ArrayList<String>> previous, int first, int second) {
+        ArrayList<ArrayList<String>> result = new ArrayList<>(previous);
         ArrayList<String> cluster = result.get(second);
         result.remove(second);
         result.get(first).addAll(cluster);
@@ -229,13 +232,12 @@ public class ClusterWork {
             //diference between two best value
             int diference = bestClusterValue - bestPartnerValue;
 
-            if (bestClusterValue > bestPartnerValue && diference > 2) {// if cluster better than poin more than 2
+            if (bestClusterValue > bestPartnerValue ) {// if cluster better than poin more than 2
                 pair[i] = bestCluster;
                 if (maxValue < bestClusterValue) {//set best of center
                     indexMaxValue = i;
                     maxValue = bestClusterValue;
                 }
-
             } else {
                 if (maxValue < bestPartnerValue) {
                     indexMaxValue = i;
